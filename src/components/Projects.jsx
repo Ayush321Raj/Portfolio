@@ -1,6 +1,6 @@
 import { useRef } from 'react';
 import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion';
-import { ExternalLink, Zap, Shield, Globe } from 'lucide-react';
+import { BookOpen, Calculator, CloudSun, ExternalLink, Globe, Shield, Users, Zap } from 'lucide-react';
 import { SiGithub } from 'react-icons/si';
 
 const projects = [
@@ -78,6 +78,227 @@ highlights: [
     liveDemoLink: 'https://ayush321raj.github.io/Simple_Quiz/',  // TODO: replace with actual live demo link
     isPlaceholder: true,
   },
+  {
+  number: '04',
+  title: 'Online Scientific Calculator',
+  description:
+    'A modern, responsive online calculator built using HTML, CSS, and JavaScript to perform basic arithmetic and scientific calculations. Features an interactive user interface, scientific functions, keyboard support, calculation history, theme switching, and a visually appealing design for a seamless calculation experience.',
+  stack: [
+    'HTML5',
+    'CSS3',
+    'JavaScript (ES6)',
+    'DOM API',
+    'LocalStorage'
+  ],
+  highlights: [
+    'Supports basic arithmetic and scientific functions including trigonometry, logarithms, square roots, and powers',
+    'Interactive calculator interface with real-time expression display and instant results',
+    'Calculation history with persistent storage using LocalStorage',
+    'Keyboard support, theme switching, and error handling for invalid calculations',
+    'Responsive design optimized for desktop, tablet, and mobile devices'
+  ],
+  Icon: Calculator,
+  gradient: 'from-violet-500 to-fuchsia-500',
+  projectLink: 'https://github.com/Ayush321Raj/Scientific_Calculator.git', // Replace with your actual GitHub repository link
+  liveDemoLink: 'https://ayush321raj.github.io/Scientific_Calculator/', // Replace with your actual live demo link
+  isPlaceholder: true,
+},
+  
+{
+  number: '05',
+  title: 'Employee Management System',
+  description:
+    'A modern, responsive Employee Management System built using HTML5, CSS3, JavaScript, PHP, and MySQL to manage employee records efficiently. Features employee registration, client-side and server-side form validation, CRUD operations, AJAX/JSON-based data handling without page refresh, employee search, and a clean, user-friendly dashboard.',
+  stack: [
+    'HTML5',
+    'CSS3',
+    'JavaScript (ES6)',
+    'PHP',
+    'MySQL',
+    'AJAX',
+    'JSON',
+    'XAMPP'
+  ],
+  highlights: [
+    'Employee registration with ID, name, department, email, and phone number',
+    'JavaScript and PHP validation for required fields, valid email addresses, and phone numbers',
+    'Complete CRUD functionality to create, view, update, and delete employee records',
+    'AJAX and JSON integration to add, update, delete, and refresh employee data without page reloads',
+    'MySQL database connectivity using PHP and prepared statements for database operations',
+    'Responsive dashboard with employee search, interactive forms, and a clean user interface'
+  ],
+  Icon: Users,
+  gradient: 'from-blue-500 to-cyan-500',
+  projectLink: 'https://github.com/Ayush321Raj/Employee_Management.git', // Replace with your actual GitHub repository link
+  liveDemoLink: 'https://employeeemanage.netlify.app/', // Replace with your actual live demo link
+  isPlaceholder: true,
+},
+  {
+  number: '06',
+  title: 'Department Website Portal',
+  description:
+    'A modern, responsive Department Website Portal built using HTML5, CSS3, JavaScript, Node.js, Express.js, and MySQL to provide department information and manage user accounts efficiently. Features a department home page, user registration, secure login authentication, a personalized dashboard, session management, and MySQL database integration.',
+  stack: [
+    'HTML5',
+    'CSS3',
+    'JavaScript (ES6)',
+    'Node.js',
+    'Express.js',
+    'MySQL',
+    'REST API',
+    'phpMyAdmin'
+  ],
+  highlights: [
+    'Responsive department homepage with navigation links and department information',
+    'User registration form with name, email, password, department, gender, and phone number',
+    'Client-side JavaScript and server-side Express.js validation for user input',
+    'Secure password storage using bcrypt hashing and login authentication',
+    'MySQL database integration using mysql2 and parameterized SQL queries',
+    'Session-based authentication with a protected user dashboard and logout functionality',
+    'Express.js REST API endpoints for registration, login, user details, and logout',
+    'Responsive user interface with clean styling and user-friendly navigation'
+  ],
+  Icon: Users,
+  gradient: 'from-indigo-500 to-blue-500',
+  projectLink: 'https://github.com/Ayush321Raj/department_website.git', // Replace with your actual GitHub repository link
+  liveDemoLink: 'https://departmentwebsitee.netlify.app/', // Replace with your actual live demo link
+  isPlaceholder: true,
+},
+  {
+  number: '07',
+  title: 'PondyCollect – Online Item-Selling Company',
+  description:
+    'A modern, responsive online item-selling company website built using HTML5, CSS3, JavaScript, Node.js, Express.js, and MySQL. Features a professional homepage, user registration, secure login authentication, role-based dashboards for employees and administrators, session management, and database integration. Employees can view administrator details, while administrators can manage and view employee information through a secure dashboard.',
+  stack: [
+    'HTML5',
+    'CSS3',
+    'JavaScript (ES6)',
+    'Node.js',
+    'Express.js',
+    'MySQL',
+    'REST API',
+    'mysql2',
+    'bcrypt',
+    'Express Session',
+    'phpMyAdmin'
+  ],
+  highlights: [
+    'Modern, responsive homepage with product-selling theme and company information',
+    'User registration and login forms with client-side and server-side validation',
+    'Role-based authentication for Employee and Admin accounts',
+    'Secure password storage using bcrypt hashing',
+    'MySQL database integration using mysql2 and parameterized SQL queries',
+    'Session-based authentication with protected dashboards and logout functionality',
+    'Employee dashboard displaying profile information and administrator details',
+    'Admin dashboard displaying employee records and employee statistics',
+    'Express.js REST API endpoints for registration, login, dashboard data, and logout',
+    'Server-side role authorization to prevent unauthorized dashboard and API access',
+    'Responsive user interface with a professional navy, teal, and amber color theme'
+  ],
+  Icon: Users,
+  gradient: 'from-teal-500 to-cyan-500',
+  projectLink: 'https://github.com/Ayush321Raj/PondyCollect.git', // Replace with your actual GitHub repository link
+  liveDemoLink: 'https://pondycollect.netlify.app/', // Replace with your actual live demo link
+  isPlaceholder: true,
+},
+{
+  number: '08',
+  title: 'Contact Management System',
+  description:
+    'A modern, responsive Contact Management System built using HTML5, CSS3, JavaScript, Node.js, Express.js, and MySQL to manage contact information efficiently. Features contact registration, dynamic contact listing, search functionality, contact editing and deletion, client-side and server-side validation, REST API integration, and persistent MySQL database storage.',
+  stack: [
+    'HTML5',
+    'CSS3',
+    'JavaScript (ES6)',
+    'Node.js',
+    'Express.js',
+    'MySQL',
+    'REST API',
+    'Fetch API',
+    'phpMyAdmin'
+  ],
+  highlights: [
+    'Responsive contact management interface with a contact form and dynamic contact table',
+    'Contact creation form with name, email, phone number, and address fields',
+    'Client-side JavaScript and server-side Express.js validation for contact details',
+    'Complete CRUD operations to create, read, update, and delete contacts',
+    'MySQL database integration using mysql2 and parameterized SQL queries',
+    'REST API endpoints using GET, POST, PUT, and DELETE HTTP methods',
+    'Dynamic contact search by name, email, phone number, or address',
+    'Fetch API integration for asynchronous communication between frontend and backend',
+    'Edit functionality to update existing contact details and delete confirmation for safe interaction',
+    'Responsive user interface with clean styling, feedback messages, and empty-state handling'
+  ],
+  Icon: Users,
+  gradient: 'from-blue-500 to-cyan-500',
+  projectLink: 'https://github.com/Ayush321Raj/Contact_Management_System.git', // Replace with your actual GitHub repository URL
+  liveDemoLink: 'https://contactmanagementsystemm.netlify.app/', // Replace with your actual live demo link
+  isPlaceholder: true,
+},
+  {
+  number: '09',
+  title: 'AJAX and JSON Weather Application',
+  description:
+    'A modern, responsive Weather Information Web Application built using HTML5, CSS3, JavaScript, AJAX, and JSON to fetch and display weather information dynamically without reloading the webpage. Features city-based weather search, asynchronous data retrieval using the Fetch API, JSON response processing, dynamic DOM manipulation, loading indicators, and error handling using a local JSON weather dataset.',
+  stack: [
+    'HTML5',
+    'CSS3',
+    'JavaScript (ES6)',
+    'AJAX',
+    'JSON',
+    'Fetch API',
+    'DOM API',
+    'Promises'
+  ],
+  highlights: [
+    'Responsive weather interface with a city input field and interactive search button',
+    'Asynchronous data retrieval using the JavaScript Fetch API',
+    'Local JSON dataset containing hypothetical weather information for multiple cities',
+    'Dynamic display of city name, temperature, weather condition, humidity, and wind speed',
+    'JSON response processing using response.json() and Promise handling',
+    'Case-insensitive city search with input validation',
+    'Loading indicators and user-friendly error messages for invalid cities and failed requests',
+    'Dynamic DOM manipulation without reloading the webpage',
+    'Clean, responsive user interface with weather icons and CSS styling'
+  ],
+  Icon: CloudSun,
+  gradient: 'from-sky-500 to-cyan-500',
+  projectLink: 'https://github.com/Ayush321Raj/weather_Application.git', // Replace with your actual GitHub repository link
+  liveDemoLink: 'https://ajaxweatherapplication.netlify.app/', // Replace with your actual live demo link
+  isPlaceholder: true,
+},
+  {
+  number: '10',
+  title: 'Book Explorer – jQuery AJAX',
+  description:
+    'A modern, responsive Book Explorer application built using HTML5, CSS3, JavaScript, and jQuery to fetch and display book information dynamically from an external API. Features asynchronous data retrieval using AJAX GET requests, JSON response processing, dynamic book cards displaying titles and authors, loading indicators, error handling, and a user-friendly interface without page reloads.',
+  stack: [
+    'HTML5',
+    'CSS3',
+    'JavaScript (ES6)',
+    'jQuery',
+    'AJAX',
+    'JSON',
+    'REST API',
+    'Open Library API'
+  ],
+  highlights: [
+    'Responsive Book Explorer interface with a clean layout and interactive Load Books button',
+    'Integration with the Open Library API to retrieve programming-related book information',
+    'Asynchronous HTTP GET requests using jQuery $.ajax()',
+    'JSON response processing to extract book titles and author names',
+    'Dynamic book card rendering using jQuery DOM manipulation methods',
+    'Loading indicators and user-friendly messages for empty results and API errors',
+    'Event handling using $(document).ready() and click event listeners',
+    'Responsive styling with CSS3, hover effects, rounded cards, and soft shadows',
+    'Displays fetched book information without reloading the entire webpage'
+  ],
+  Icon: BookOpen,
+  gradient: 'from-blue-500 to-cyan-500',
+  projectLink: 'https://github.com/Ayush321Raj/book_explorer.git', // Replace with your actual GitHub repository link
+  liveDemoLink: 'https://bookexplorer123.netlify.app/', // Replace with your actual live demo link
+  isPlaceholder: true,
+},
 ];
 
 function TiltCard({ project }) {
