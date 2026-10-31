@@ -130,7 +130,7 @@ highlights: [
   Icon: Users,
   gradient: 'from-blue-500 to-cyan-500',
   projectLink: 'https://github.com/Ayush321Raj/Employee_Management.git', // Replace with your actual GitHub repository link
-  liveDemoLink: 'https://employeeemanage.netlify.app/', // Replace with your actual live demo link
+  liveDemoLink: 'https://employee-management-delta-red.vercel.app/', // Replace with your actual live demo link
   isPlaceholder: true,
 },
   {
@@ -161,7 +161,7 @@ highlights: [
   Icon: Users,
   gradient: 'from-indigo-500 to-blue-500',
   projectLink: 'https://github.com/Ayush321Raj/department_website.git', // Replace with your actual GitHub repository link
-  liveDemoLink: 'https://departmentwebsitee.netlify.app/', // Replace with your actual live demo link
+  liveDemoLink: 'https://departmentwebsite123.netlify.app/', // Replace with your actual live demo link
   isPlaceholder: true,
 },
   {
@@ -198,7 +198,7 @@ highlights: [
   Icon: Users,
   gradient: 'from-teal-500 to-cyan-500',
   projectLink: 'https://github.com/Ayush321Raj/PondyCollect.git', // Replace with your actual GitHub repository link
-  liveDemoLink: 'https://pondycollect.netlify.app/', // Replace with your actual live demo link
+  liveDemoLink: 'https://pondicollect.netlify.app/', // Replace with your actual live demo link
   isPlaceholder: true,
 },
 {
@@ -232,7 +232,7 @@ highlights: [
   Icon: Users,
   gradient: 'from-blue-500 to-cyan-500',
   projectLink: 'https://github.com/Ayush321Raj/Contact_Management_System.git', // Replace with your actual GitHub repository URL
-  liveDemoLink: 'https://contactmanagementsystemm.netlify.app/', // Replace with your actual live demo link
+  liveDemoLink: 'https://contactmanagementtsystem.netlify.app/', // Replace with your actual live demo link
   isPlaceholder: true,
 },
   {
