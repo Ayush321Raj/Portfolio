@@ -26,8 +26,8 @@ highlights: [
 ],
     Icon: Zap,
     gradient: 'from-indigo-500 to-violet-500',
-    projectLink: 'https://github.com/Ayush321Raj/Pondi_Fresh',   // TODO: replace with actual GitHub link
-    liveDemoLink: 'https://ayush321raj.github.io/Pondi_Fresh/',  // TODO: replace with actual live demo link
+    projectLink: 'https://github.com/Ayush321Raj/Resume_Static_Web.git',   // TODO: replace with actual GitHub link
+    liveDemoLink: 'https://dapper-kelpie-8cb4d7.netlify.app/',  // TODO: replace with actual live demo link
     isPlaceholder: true,
   },
   {
